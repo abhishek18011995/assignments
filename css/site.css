@@ -1,0 +1,172 @@
+.header {
+   background-color: #333333;
+   width: 100%;
+   color: #fff;
+   padding: 15px;
+   text-align: center;
+   margin-bottom: 10px;
+}
+
+h1 {
+   font-size: 1.5rem;
+}
+
+.wrapper {
+   text-align: center;
+   padding-bottom: 20px;
+}
+
+.btn-container {
+   margin-bottom: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.btn-primary {
+   border-radius: 4px;
+   min-width: 100px;
+   color: #fff;
+   margin: 10px 10px;
+   border: 1px solid transparent;
+   background-color: #72c3dc;
+   padding: 1rem 1rem;
+   box-shadow: 0px 5px 2px #4a7481;
+}
+
+.main {
+   margin-bottom: 20px;
+}
+
+.cards {
+   margin-bottom: 20px;
+}
+
+.card {
+   width: 80%;
+   padding: 15px;
+   background-color: #efefef;
+   margin: 10px auto;
+}
+
+.one {
+   border-left: 10px solid #6f98a8;
+}
+
+.two {
+   border-left: 10px solid #2b8ead;
+}
+
+.three {
+   border-left: 10px solid #2f454e;
+}
+
+.four {
+   border-left: 10px solid #2b8ead;
+}
+
+.five {
+   border-left: 10px solid #2f454e;
+}
+
+.six {
+   border-left: 10px solid #bfbfbf;
+}
+
+.seven {
+   border-left: 10px solid #bfbfbf;
+}
+
+.eight {
+   border-left: 10px solid #6f98a8;
+}
+
+.nine {
+   border-left: 10px solid #2f454e;
+}
+
+@media only screen and (min-width: 768px) {
+   .header {
+      background-color: #fff;
+      color: #000;
+      padding: 15px;
+      text-align: center;
+      margin-bottom: 10px;
+   }
+
+   .wrapper {
+      background-color: #eaeaeb;
+      border-top: 5px solid #bfbfbf;
+   }
+
+   .container {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: center;
+   }
+
+   .btn-container {
+      max-width: 250px;
+      padding: 20px;
+      align-content: baseline;
+   }
+
+   .btn-primary {
+      flex: 100%;
+   }
+
+   .cards {
+      display: flex;
+      flex-wrap: wrap;
+      width: 600px;
+   }
+
+   .card {
+      width: 150px;
+      height: 150px;
+      flex: 100%;
+      margin: 0px;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 5rem;
+      flex: 33%;
+   }
+
+   .one {
+      background-color: #6f98a8;
+   }
+
+   .two {
+      background-color: #2b8ead;
+   }
+
+   .three {
+      background-color: #2f454e;
+   }
+
+   .four {
+      background-color: #2b8ead;
+   }
+
+   .five {
+      background-color: #2f454e;
+   }
+
+   .six {
+      background-color: #bfbfbf;
+   }
+
+   .seven {
+      background-color: #bfbfbf;
+   }
+
+   .eight {
+      background-color: #6f98a8;
+   }
+
+   .nine {
+      background-color: #2f454e;
+   }
+}
