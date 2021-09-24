@@ -1,39 +1,39 @@
 let inputArr = [
    {
       val: 1,
-      className: "one"
+      className: "color1"
    },
    {
       val: 2,
-      className: "two"
+      className: "color2"
    },
    {
       val: 3,
-      className: "three"
+      className: "color3"
    },
    {
       val: 4,
-      className: "four"
+      className: "color2"
    },
    {
       val: 5,
-      className: "five"
+      className: "color3"
    },
    {
       val: 6,
-      className: "six"
+      className: "color4"
    },
    {
       val: 7,
-      className: "seven"
+      className: "color4"
    },
    {
       val: 8,
-      className: "eight"
+      className: "color1"
    },
    {
       val: 9,
-      className: "nine"
+      className: "color3"
    }
 ]
 

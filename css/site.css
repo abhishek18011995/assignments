@@ -49,40 +49,20 @@ h1 {
    margin: 10px auto;
 }
 
-.one {
-   border-left: 10px solid #6f98a8;
+.color1 {
+   border-left: 10px solid #b5c3c9;
 }
 
-.two {
+.color2 {
    border-left: 10px solid #2b8ead;
 }
 
-.three {
+.color3 {
    border-left: 10px solid #2f454e;
 }
 
-.four {
-   border-left: 10px solid #2b8ead;
-}
-
-.five {
-   border-left: 10px solid #2f454e;
-}
-
-.six {
+.color4 {
    border-left: 10px solid #bfbfbf;
-}
-
-.seven {
-   border-left: 10px solid #bfbfbf;
-}
-
-.eight {
-   border-left: 10px solid #6f98a8;
-}
-
-.nine {
-   border-left: 10px solid #2f454e;
 }
 
 @media only screen and (min-width: 768px) {
@@ -132,41 +112,22 @@ h1 {
       align-items: center;
       font-size: 5rem;
       flex: 33%;
+      border: none;
    }
 
-   .one {
+   .color1 {
       background-color: #6f98a8;
    }
 
-   .two {
+   .color2 {
       background-color: #2b8ead;
    }
 
-   .three {
+   .color3 {
       background-color: #2f454e;
    }
 
-   .four {
-      background-color: #2b8ead;
-   }
-
-   .five {
-      background-color: #2f454e;
-   }
-
-   .six {
+   .color4 {
       background-color: #bfbfbf;
-   }
-
-   .seven {
-      background-color: #bfbfbf;
-   }
-
-   .eight {
-      background-color: #6f98a8;
-   }
-
-   .nine {
-      background-color: #2f454e;
    }
 }
