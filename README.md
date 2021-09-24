@@ -1,5 +1,7 @@
 # maersk-assignment
 
+Please take the latest code before running the page. 
+
 Just open the index.html page to run Shuffle and sort
 
 Mobile first approach:
