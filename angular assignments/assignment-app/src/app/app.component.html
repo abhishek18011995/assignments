@@ -1,0 +1,15 @@
+<mat-toolbar>
+  <button
+    mat-icon-button
+    aria-label="Home icon-button with home icon"
+  >
+    <mat-icon [routerLink]="['/']">home</mat-icon>
+  </button>
+  <span>Assignment App</span>
+  <span class="example-spacer"></span>
+
+</mat-toolbar>
+
+<div class="wrapper">
+  <router-outlet></router-outlet>
+</div>
